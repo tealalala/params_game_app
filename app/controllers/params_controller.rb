@@ -23,4 +23,19 @@ class ParamsController < ApplicationController
 
     render 'query_game.json.jbuilder'
   end
+
+  # def url_query_game
+  #   @app_random_number = 81
+  #   @user_guess = params[:guess].to_i
+  #
+  #   if @user_guess == @app_random_number
+  #     @message = "You got it right"
+  #   elsif @user_guess > @app_random_number
+  #     @message = "Too high. Guess again."
+  #   elsif @user_guess < @app_random_number
+  #     @message = "Too low. Guess again."
+  #   end
+  #
+  #   render "url_segment.json.jbuilder"
+  # end
 end
