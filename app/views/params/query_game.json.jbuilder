@@ -1,1 +1,2 @@
-json.app_random_number @app_random_number
+json.user_guess @user_guess
+json.message @message
