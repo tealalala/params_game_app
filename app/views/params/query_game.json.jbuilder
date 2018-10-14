@@ -1,0 +1,1 @@
+json.app_random_number @app_random_number
